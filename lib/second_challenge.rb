@@ -6,10 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.map {|item| item.values}
-    item_list = item
+  groceries.values 
   end
 
-item_list
+groceries
 
 end
